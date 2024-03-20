@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "instance_type" {
   description = "instance type for ec2"
-  default     =  "t2.nano"
+  default     =  "t2.micro"
 }
 
 variable "ami_id" {
